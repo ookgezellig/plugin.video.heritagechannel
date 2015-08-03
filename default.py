@@ -28,8 +28,7 @@ path = local.getAddonInfo('path')
 # debugfile.write(aaa)
 # debugfile.close()
 
-url_ext = 'https://raw.githubusercontent.com/ookgezellig/plugin.video' \
-          '.heritagechannel/master/data/institutions.csv'  # url of online csv
+url_ext = 'https://raw.githubusercontent.com/ookgezellig/plugin.video.heritagechannel/master/resources/data/institutions.csv'  # url of online csv
 localfilepath = os.path.join(path, 'resources', 'data', "institutions.csv")  # local csv = data/institutions.csv
 
 # Name of institution, City, Countrycode, Youtube channel ID, abbreviation of institute (for icons and fanart)
