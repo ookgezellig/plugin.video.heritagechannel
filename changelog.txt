@@ -1,5 +1,5 @@
 v1.0.0
-* Sunday 2nd August 2015: first stable release for Helix (v14) and Isengard (v15)
+* Monday 3rd August 2015: first stable release for Helix (v14) and Isengard (v15) -35 channels added
 
 * July: added error catching and lots of little tweaks
 

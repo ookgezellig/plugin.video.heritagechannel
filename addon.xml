@@ -11,7 +11,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">The Heritage Channel</summary>
-        <description lang="en">Videos from cultural, natural, scientific, academic, technical and other heritage organisations from across the world.[CR][CR]This addon depends upon the Youtube addon by Bromix (http://kodi.wiki/view/Add-on:YouTube), so install that as well.
+        <description lang="en">Videos from cultural, natural, scientific, academic, technical and other heritage organisations from across the world.[CR][CR]35 channels for v1.0.0., more will be added in future releases.[CR][CR]This addon depends upon the Youtube addon by Bromix (http://kodi.wiki/view/Add-on:YouTube), so install that as well.
         </description>
         <platform>all</platform>
         <forum></forum>

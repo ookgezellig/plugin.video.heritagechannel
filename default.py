@@ -4,7 +4,7 @@
 # This addon was modified from the BBQ Pit Boys plugin (http://addons.tvaddons.ag/show/plugin.video.barbecueweb/)
 # These addons depends upon the Youtube addon by Bromix (http://kodi.wiki/view/Add-on:YouTube), so install that as well
 #
-# Version 1.0.0 / 2-8-2015 by ookgezellig@gmail.com
+# Version 1.0.0 with 35 channels / 3-8-2015 by ookgezellig@gmail.com
 #
 # ------------------------------------------------------------
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
