@@ -1,13 +1,13 @@
-Musée du Louvre;Paris;fr;louvre;louvre
+MusÃ©e du Louvre;Paris;fr;louvre;louvre
 National Gallery;London;gb;nationalgalleryuk;natgal
 Metropolitan Museum of Art;New York City;us;metmuseum;mma
 Tate Modern;London;gb;tate;tatem
 #National Palace Museum;Taipei;tw;UC57WI69uyN_TyzpLDntWzNA;npm
 National Gallery of Art;Washington, D.C.;us;NationalGalleryArtDC;ngawdc
-#Centre Pompidou, Musée National d'Art Moderne;Paris;fr;UCI4r4IrjAM6MCVQ_phED-hA;mndam
-Musée d'Orsay;Paris;fr;MuseeOrsayOfficiel;orsay
+#Centre Pompidou, MusÃ©e National d'Art Moderne;Paris;fr;UCI4r4IrjAM6MCVQ_phED-hA;mndam
+MusÃ©e d'Orsay;Paris;fr;MuseeOrsayOfficiel;orsay
 Victoria and Albert Museum;London;gb;vamuseum;vanda
-Reina Sofía;Madrid;es;museoreinasofia;rsofia
+Reina SofÃ­a;Madrid;es;museoreinasofia;rsofia
 National Museum of Korea;Seoul;kr;koreanmuseum;nmk
 #The Netherlands;;;;
 ##AMS;;;;
@@ -15,7 +15,7 @@ Rijksmuseum;Amsterdam;nl;rijksmuseumamsterdam;rm
 Amsterdam Museum;Amsterdam;nl;ahmamsterdam;amsmus
 Van Gogh Museum;Amsterdam;nl;atVanGoghMuseum;vangogh
 Stedelijk Museum;Amsterdam;nl;stedelijkmuseum;sm
-##Rdam;;;;
+##Rdam; ;;;
 Maritiem Museum;Rotterdam;nl;mmph2;marimus
 Museum Boijmans Van Beuningen;Rotterdam;nl;Museumboijmans;mbvb
 ##The Hague;;;;
