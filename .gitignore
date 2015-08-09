@@ -5,3 +5,4 @@ __pycache__/
 
 resources/backup/*
 resources/data/debugfile.txt
+.idea

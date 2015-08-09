@@ -4,7 +4,7 @@
 # This addon was modified from the BBQ Pit Boys plugin (http://addons.tvaddons.ag/show/plugin.video.barbecueweb/)
 # These addons depends upon the Youtube addon by Bromix (http://kodi.wiki/view/Add-on:YouTube), so install that as well
 #
-# Version 1.0.0 with 35 channels / 3-8-2015 by ookgezellig@gmail.com
+# Version 1.0.1 with 35 channels / 9-8-2015 by ookgezellig@gmail.com
 #
 # ------------------------------------------------------------
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
@@ -16,7 +16,6 @@ import os
 import sys
 import plugintools
 import xbmcaddon
-import xbmcgui
 from addon.common.addon import Addon
 
 addonID = 'plugin.video.heritagechannel'
@@ -24,27 +23,12 @@ addon = Addon(addonID, sys.argv)
 local = xbmcaddon.Addon(id=addonID)
 path = local.getAddonInfo('path')
 
-# debugfile = open(os.path.join(path, 'data', "debugfile.txt"), 'w')
-# debugfile.write(aaa)
-# debugfile.close()
-
-url_ext = 'https://raw.githubusercontent.com/ookgezellig/plugin.video.heritagechannel/master/resources/data/institutions.csv'  # url of online csv
 localfilepath = os.path.join(path, 'resources', 'data', "institutions.csv")  # local csv = data/institutions.csv
 
 # Name of institution, City, Countrycode, Youtube channel ID, abbreviation of institute (for icons and fanart)
 # Put in in list chi[]
 chi = []
-# test if csv@github.com is accessible. #192.30.252.128 = www.github.com
-if plugintools.hostdomain_available('github.com'):
-    if not plugintools.read_online_csv(url_ext):
-        chi = plugintools.read_local_csv(localfilepath)  # use locally stored csv
-    else:
-        chi = plugintools.read_online_csv(url_ext)  # use online csv
-else:  # no internet connection
-    xbmcgui.Dialog().ok("Github is not accessible",
-                        "Database at github.com is unavailable. Is your internet connection working?[CR]Using local database instead.")
-    chi = plugintools.read_local_csv(localfilepath)
-
+chi = plugintools.read_local_csv(localfilepath)
 # Break down chi[]. Set OrganisationName, city, countrycode,YoutubeChannel-ID, abbreviation, local thumb and local fanart for every CH institution
 chi_name, chi_city, chi_countrycode, chi_countryname, chi_YOUTUBE_CHANNEL, chi_abbrev, chi_twitterHandle, chi_thumb, chi_fanart = (
     [] for i in range(9))

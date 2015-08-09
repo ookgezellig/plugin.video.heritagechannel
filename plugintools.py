@@ -114,7 +114,7 @@ ALL_VIEW_CODES = {
 # --- Next 4 functions added by ookgezellig -----
 
 # See http://stackoverflow.com/questions/3764291/checking-network-connection
-def hostdomain_available(hostdomain):
+def hostdomain_available(hostdomain): #not used in plugin.video.heritagechannel, as only local csv is used
     try:
         urllib2.urlopen('http://' + hostdomain, timeout=1)
         return True
@@ -123,7 +123,7 @@ def hostdomain_available(hostdomain):
     except urllib2.URLError as err:
         return False
 
-def read_online_csv(url):
+def read_online_csv(url): #not used in plugin.video.heritagechannel, as only local csv is used
     # Input=URL of online csv -- Output=List or boolean
     try:
         urllib2.urlopen(url)
