@@ -2,7 +2,8 @@
 The Heritage Channnel - video addon for Kodi Helix (v14) / Isengard (v15). 
 Videos from cultural, natural, scientific, academic, technical and other heritage organisations from across the world.
 
-See http://addons.kodi.tv/show/plugin.video.heritagechannel/
+See http://addons.kodi.tv/show/plugin.video.heritagechannel/ and http://kodi.wiki/view/Add-on:The_Heritage_Channel
+
    
 So far includes 35 insitutions:
 1 Musée du Louvre,Paris
