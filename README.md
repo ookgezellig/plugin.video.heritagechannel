@@ -5,6 +5,8 @@ Videos from cultural, natural, scientific, academic, technical and other heritag
 See also
 http://addons.kodi.tv/show/plugin.video.heritagechannel -- http://kodi.wiki/view/Add-on:The_Heritage_Channel -- http://forum.kodi.tv/showthread.php?tid=235754
 
+How to install: http://kodicommunity.com/how-to-install-the-heritage-channel-on-kodi/
+
    
 So far includes 35 insitutions:
 1 Musée du Louvre,Paris
