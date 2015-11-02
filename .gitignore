@@ -5,4 +5,5 @@ __pycache__/
 
 resources/backup/*
 resources/data/debugfile.txt
+resources/data/new_additions_oct2015_v1.0.2.csv
 .idea
