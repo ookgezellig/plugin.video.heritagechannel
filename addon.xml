@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.heritagechannel" name="The Heritage Channel"
-       version="1.0.2" provider-name="ookgezellig">
+       version="1.1.0" provider-name="ookgezellig">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.addon.common" version="2.0.0"/>
@@ -11,7 +11,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">The Heritage Channel</summary>
-        <description lang="en">Videos from cultural, natural, scientific, academic, technical and other heritage organisations from across the world.[CR][CR]70 channels for v1.0.2.[CR][CR]This addon depends upon the Youtube addon by Bromix (http://kodi.wiki/view/Add-on:YouTube), so install that as well.
+        <description lang="en">Videos from cultural, natural, scientific, academic, technical and other heritage organisations from across the world.[CR][CR]xx channels for v1.1.0[CR][CR]This addon depends upon the Youtube addon by Bromix (http://kodi.wiki/view/Add-on:YouTube), so install that as well.
         </description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>

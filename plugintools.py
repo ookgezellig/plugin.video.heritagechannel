@@ -111,7 +111,11 @@ ALL_VIEW_CODES = {
     },
 }
 
-# --- Next 4 functions added by ookgezellig -----
+# --- Begin: functions added by ookgezellig -----
+
+def splitOnQuestionmarkAndEquality(s):
+    splitlist = re.split(r'[?=]',s)
+    return splitlist
 
 # See http://stackoverflow.com/questions/3764291/checking-network-connection
 def hostdomain_available(hostdomain): #not used in plugin.video.heritagechannel, as only local csv is used
@@ -152,7 +156,6 @@ def read_online_csv(url): #not used in plugin.video.heritagechannel, as only loc
                 list.append(row)
         return list
 
-
 def read_local_csv(filepath):
     # Input=local filepath/filename of csv -- Output=List
     try:
@@ -172,11 +175,10 @@ def read_local_csv(filepath):
                 list.append(row)
         return list
 
-
-def lookup_countryname(csvfile, countrycode):
+def lookup_countryname(countrycode):
     # We need data/countrydata.csv to convert from countrycode to countryname. Countrycode = ISO 3166-1 alpha-2
     filepath = os.path.dirname(os.path.realpath(__file__))
-    url_country = os.path.join(filepath, 'resources', 'data', csvfile)
+    url_country = os.path.join(filepath, 'resources', 'data', "countrydata.csv")
     try:
         open(url_country, 'r')
     except IOError as (errno, strerror):
@@ -196,6 +198,7 @@ def lookup_countryname(csvfile, countrycode):
                 a = row[1]
         return a
 
+# --- END: functions added by ookgezellig -----
 
 # --- below this line: code of original plugintools.py -----
 # Write something on XBMC log
